@@ -1,0 +1,6 @@
+streamlit
+cairosvg
+python-pptx
+PyQt6
+lxml
+cairocffi

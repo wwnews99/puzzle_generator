@@ -1,0 +1,22 @@
+/* 1) Wrapper that contains the input + +/- buttons */
+section[data-testid="stSidebar"] .stNumberInput [data-baseweb="input"] {
+  height: 36px !important;        /* try 32–48px */
+  min-height: 36px !important;
+  display: flex;
+  align-items: center;             /* vertical centering */
+}
+
+/* 2) Inner input box (≈ wrapper height minus padding) */
+section[data-testid="stSidebar"] .stNumberInput [data-baseweb="input"] input {
+  height: 26px !important;         /* ~10px less than wrapper */
+  line-height: 26px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  padding-right: 2.2em !important; /* leave room for +/- buttons */
+}
+
+/* 3) The +/- stepper buttons */
+section[data-testid="stSidebar"] .stNumberInput button {
+  height: 36px !important;         /* match wrapper */
+  min-height: 36px !important;
+}
