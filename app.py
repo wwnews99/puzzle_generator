@@ -74,7 +74,7 @@ def _targets_from_sentence(sentence: str, n: int, mn: int, mx: int, seed: str | 
 st.set_page_config(page_title="Puzzle Generator", layout="wide")
 # If styles.css is next to app.py:
 load_css(Path(__file__).with_name("styles.css"))
-st.title("Puzzle Generator (Web – Simple)")
+st.title("Puzzle Generator (Simple)")
 
 
 
